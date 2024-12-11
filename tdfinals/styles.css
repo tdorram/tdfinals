@@ -1,0 +1,239 @@
+/* CSS Document for multimedia demonstration */
+
+body{
+    background-color: #7C7A7A;
+}
+
+.pagebox{
+    background-color: #494949;
+    width: 70%;
+    margin: auto;
+    max-width: 900px;
+}
+
+header{
+    background-image: url('images/cat.jpg');
+    background-size: cover;
+    height: 250px;
+    position: relative;
+    padding: 20px;
+}
+
+section{
+    background-color:494949;
+    color: #A69F98;
+    padding: 5px;
+    
+}
+
+h1{
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    padding: 3%;
+}
+
+h2{
+    font-size: 45px;
+    padding-left: 1%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+h3{
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding-bottom: 2.5%;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+h5{
+    font-size: 30px;
+    padding-left: 1.5%;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+h6{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BCAA99;
+    position: sticky;
+    bottom: 0; 
+    padding: 3%;
+    padding-left: 1%;
+    padding-top: 5%;
+}
+
+h7{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: ffffff;
+    text-align: justify;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+
+
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 2%;
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+}
+
+p{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.calm{
+    text-align: center;
+}
+
+.topnav{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a{
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #111111;
+}
+
+.current{
+    background-color: #BCAA99;
+}
+
+
+
+.smallpic{
+    width: 25%;
+    float: left;
+    padding: 3px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    padding-bottom: 3.5%;
+}
+
+hr{clear: both;}
+
+.bigpic{
+    width: 50%;
+    display: block;
+    margin: auto; 5px;
+    padding-top: 1%;
+}
+
+
+h3 {
+    color: #ffffff;
+}
+
+audio{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.video_container{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+iframe, .video_container object{
+  border: none;
+  position: absolute;
+  top: 0;
+  left:22;
+  right: 0;
+  width: 95%;
+  height: 95%;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #E2E2E2;
+    border: 2px solid #000000;
+}
+
+
+footer{
+  font-style: italic;
+  text-align: center;
+  padding: 10px 0;
+
+}
+
+@media only screen and (max-width: 900 px){
+  h1{font-size: 42px}
+h6{padding-top: 15%}}
+
+@media only screen and (max-width: 600px){
+.pagebox{width: 90%}
+.topnav{width: 100%;
+overflow: hidden
+padding: none;}
+.topnav a{width: 100%;
+display: block;
+text-align: center;
+background-color: #000000;
+border-style: solid;
+border-width: 1px;
+boder-color: #323232;}
+.smallpic{
+  width: 100%;
+}
+audio{width: 100%;}
